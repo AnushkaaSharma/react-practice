@@ -16,7 +16,6 @@ const Folder = (props) => {
     { props.name }
     <div>{ props.children }</div>
   </div>
-    
 }
 
 const File = (props) => {
