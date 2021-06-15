@@ -9,7 +9,6 @@ function App() {
       <Folder name='Applications' />
     </div>
   )
-  
 }
 const Folder = (props) => {
   return <div style={{ border: '2px solid black' }}>
