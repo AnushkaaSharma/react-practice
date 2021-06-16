@@ -10,6 +10,8 @@ function App() {
     </div>
   )
 }
+
+
 const Folder = (props) => {
   return <div style={{ border: '2px solid black' }}>
     { props.name }
