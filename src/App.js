@@ -24,5 +24,4 @@ const Folder = (props) => {
 const File = (props) => {
   return <div>{ props.name }</div>
 }
-
 export default App;
