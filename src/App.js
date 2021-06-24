@@ -13,7 +13,7 @@ function App() {
 
 
 const Folder = (props) => {
-  return <div style={{ border: '2px solid black' }}>
+  return <div style={{ border: '2px solid red' }}>
     { props.name }
     <div style={{ marginLeft: '17px' }}>
       { props.children }
