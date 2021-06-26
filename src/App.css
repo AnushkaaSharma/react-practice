@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.children {
+    border: 2px solid red;
+}
+
+.main {
+    border: 2px solid black;
+}
