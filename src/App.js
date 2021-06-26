@@ -3,9 +3,14 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Folder name='Desktop'>
+      <Folder name= 'Desktop'>
+        <Folder name= 'Music'>
+          <File name= 'spotifyf.mp4' />
+        </Folder>
         <File name= 'dogs.jpg' />
-      </Folder>
+        <File name= 'cats.jpg'/>
+        </Folder>
+    
       <Folder name='Applications' />
     </div>
   )
