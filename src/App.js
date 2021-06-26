@@ -1,16 +1,29 @@
 import './App.css';
 
+
 function App() {
   return (
     <div>
-      <Folder name= 'Desktop'>
-        <Folder name= 'Music'>
-          <File name= 'spotifyf.mp4' />
+      <Folder name= 'This PC'>
+        <Folder name= '3D Objects' />
+        <Folder name= 'Desktop' />
+
+        <Folder name= 'Documents' >
+          <File name= 'Adobe' />
+          <File name= 'abc.pdf' />
+          </Folder>
+
+        <Folder name= 'Downloads' >
+          <File name= 'Adobe' />
+          <File name= 'abc.pdf' />
+          </Folder>
+
+        <Folder name= 'Music' />
+        <Folder name= 'Pictures' />
+        <Folder name= 'Videos' />
+        <Folder name= 'OS(C:)' />
+        <Folder name= 'New Volume (D:)' />
         </Folder>
-        <File name= 'dogs.jpg' />
-        <File name= 'cats.jpg'/>
-        </Folder>
-    
       <Folder name='Applications' />
     </div>
   )
@@ -18,9 +31,9 @@ function App() {
 
 
 const Folder = (props) => {
-  return <div style={{ border: '2px solid red' }}>
+  return <div className= 'main'>
     { props.name }
-    <div style={{ marginLeft: '17px' }}>
+    <div className = 'children'>
       { props.children }
     </div>
   </div>
